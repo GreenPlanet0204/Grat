@@ -1,0 +1,13 @@
+.switch-container {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+@media screen and (max-width: 462px) {
+  .switch-container .mantine-Button-label {
+    display: none;
+  }
+}

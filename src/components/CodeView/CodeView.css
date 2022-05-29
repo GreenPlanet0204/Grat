@@ -1,0 +1,18 @@
+.codeview {
+  height: 800px;
+  background-color: #141517;
+}
+
+#code-editor {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 936px) {
+  .codeview {
+    width: 100%;
+  }
+}
